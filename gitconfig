@@ -1,0 +1,24 @@
+[user]
+  name = Kimihiko NAKAMURA
+  email = nakamura.808@gmail.com
+[core]
+  excludesfile = ~/.gitignore
+  pager = less -c
+[color]
+  ui = auto
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  f = fetch
+  m = merge
+  rb = rebase
+  cp = cherry-pick
+  s = submodule
+  su = submodule update --init
+  rbo = rebase origin/master
+[branch]
+	autosetuprebase = always
+[push]
+	default = simple
